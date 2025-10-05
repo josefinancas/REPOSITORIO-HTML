@@ -1,0 +1,59 @@
+body {
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Define o fundo azul da página */
+body {
+  background-color: #007BFF; /* Azul padrão Bootstrap */
+  color: white; /* Deixa o texto branco para contrastar */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Deixa o título um pouco maior */
+h1 {
+  font-size: 3em;
+}
+
+.carousel-inner img {
+  width: 70%;           /* reduz largura para 70% do container */
+  height: 350px;
+  object-fit: contain;
+  margin: 0 auto;       /* centraliza */
+  border-radius: 15px;  /* deixa bordas arredondadas (opcional) */
+  background-color: white;
+}
+
+.titulo-cabuloso {
+  color: #0033A0;          /* azul escuro do Cruzeiro */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+/* Efeito hover nos blocos de notícias */
+.p-4.bg-light.border.rounded-3.shadow-sm:hover {
+  background-color: #0033A0;      /* Azul escuro do Cruzeiro */
+  color: white;                   /* Muda o texto para branco */
+  transform: translateY(-5px);    /* Dá um leve “salto” visual */
+  transition: all 0.3s ease;      /* Deixa a transição suave */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* sombra mais forte */
+}
+
+/* Mantém os títulos e botões legíveis dentro do hover */
+.p-4.bg-light.border.rounded-3.shadow-sm:hover h5 {
+  color: #FFD700; /* Título dourado durante o hover */
+}
+
+.p-4.bg-light.border.rounded-3.shadow-sm:hover a.btn {
+  background-color: white;
+  color: #0033A0;
+  border-color: white;
+}
+
